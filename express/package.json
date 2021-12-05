@@ -1,0 +1,17 @@
+{
+  "name": "express-node",
+  "version": "1.0.0",
+  "description": "the express app that been dockerize",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "bob",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

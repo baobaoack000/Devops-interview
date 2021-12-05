@@ -12,8 +12,21 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
 
+  run-docker:
+    
+    docker:
+      - image: cimg/base:stable
+    
+    steps:
+      - checkout
+      - run:
+          name: "Run the Mongodb Docker"
+          command: "echo Hello, World!"
+
+
 
 workflows:
-  say-hello-workflow:
+  Test-Ci/Cd:
     jobs:
       - say-hello
+      - run-docker
