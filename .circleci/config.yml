@@ -26,7 +26,7 @@ jobs:
 
 
 workflows:
-  Test-Ci/Cd:
+  test_circle_ci:
     jobs:
       - say-hello
       - run-docker
