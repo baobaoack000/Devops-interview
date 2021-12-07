@@ -37,4 +37,4 @@ workflows:
   test_circle_ci:
     jobs:
       - say-hello
-      - run-docker
+      - run-docker-compose
