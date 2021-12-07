@@ -7,6 +7,12 @@
    - docker run -p 49160:8080 -d <your username>/express-node
    - docker logs <container id>
    - curl -i localhost:8080
-2. Docker :
+3. Mongodb :
+   - mongo -u "root" -p "password"
+   - Backup : `docker-compose exec db sh -c 'exec mongodump -d test --archive' > ./db/all-collections.archive`
+   
+4. Docker-compose :
+   - docker-compose up 
+5. React :
    - 
 # Reference
