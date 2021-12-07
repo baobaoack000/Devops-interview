@@ -21,7 +21,7 @@ jobs:
       - checkout
       - run:
           name: "Run the Application on Docker"
-          command: "docker-compose up"
+          command: "docker-compose up -d"
 
 
 
