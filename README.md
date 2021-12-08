@@ -9,10 +9,12 @@
    - curl -i localhost:8080
 3. Mongodb :
    - mongo -u "root" -p "password"
-   - Backup : `docker-compose exec db sh -c 'exec mongodump -d test --archive' > ./db/all-collections.archive`
+   - Backup : `bash -c 'mongodump -u root -p password --archive' > ./db/all-collections.archive`
+   - Restore : `mongorestore /dump`
    
 4. Docker-compose :
    - docker-compose up 
+   - docker-
 5. React :
    - 
 # Reference
