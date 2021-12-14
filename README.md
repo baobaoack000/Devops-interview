@@ -11,10 +11,11 @@
    - mongo -u "root" -p "password"
    - Backup : `bash -c 'mongodump -u root -p password --archive' > ./db/all-collections.archive`
    - Restore : `mongorestore /dump`
+Reference : [Schema validation]{https://docs.mongodb.com/manual/core/schema-validation/}
    
 4. Docker-compose :
    - docker-compose up 
-   - docker-
+   - docker-compose exec <container name> bash
 5. React :
    - 
 # Reference
